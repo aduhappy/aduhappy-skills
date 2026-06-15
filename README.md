@@ -347,13 +347,7 @@ conda create -n swat python=3.11  # SWAT 水文模型
 
 | 软件 | 用途 |
 |------|------|
-| [ZCode](https://zcode.ai) | AI 编程助手（本仓库 Skill 的运行平台） |
-| [ChatMem](https://github.com/Rimagination/ChatMem) | 智能体长短期记忆 |
-| [OneFind](https://github.com/iawnfoanaowt/OneFind) | 本地多源知识库统一检索 |
-| [Zotero](https://www.zotero.org/) | 文献管理 |
-| [LibreOffice](https://www.libreoffice.org/) | 开源办公套件（OneFind 需要） |
-| [MinerU](https://github.com/opendatalab/MinerU) | PDF 学术公式/图表提取 |
-| [Node.js](https://nodejs.org/) | ZCode 运行依赖 |
+| [MinerU](https://github.com/opendatalab/MinerU) | 开源 PDF 解析工具，精准提取学术论文中的公式、表格、图片，转为 Markdown/LaTeX，适合配合科研 Skill 处理复杂版面论文 |
 
 ---
 
