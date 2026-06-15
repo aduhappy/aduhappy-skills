@@ -5,6 +5,31 @@
 
 ---
 
+## 🚀 快速安装指令
+
+把以下内容发给你的 AI Agent 即可一键安装所有 Skill：
+
+```
+请帮我安装以下 GitHub 上的 AI Agent Skill：
+
+1. 科研写作助手：https://github.com/Norman-bury/research-writing-skill
+2. Nature级表达与绘图：https://github.com/Yuan1z0825/nature-skills
+3. 学术全流程管理：https://github.com/Imbad0202/academic-research-skills
+4. 科研PDF深度解析：https://github.com/Rimagination/scansci-pdf
+5. 中文去AI痕迹：https://github.com/op7418/Humanizer-zh
+6. 软件著作权自动生成：https://github.com/Fokkyp/SoftwareCopyright-Skill
+7. 智能体长短期记忆：https://github.com/Rimagination/ChatMem
+   ⚠️ 此 Skill 需要单独安装 ChatMem 桌面客户端，下载地址：https://github.com/Rimagination/ChatMem/releases
+8. GEE/geemap 工作流：https://github.com/sadassimov/geemu-skill
+9. 本地知识库检索：https://github.com/iawnfoanaowt/OneFind
+   ⚠️ 此 Skill 需要单独安装 OneFind 网关程序，下载地址：https://github.com/iawnfoanaowt/OneFind/releases
+   依赖：LibreOffice（用于解析 Office 文档）、Zotero（可选，用于文献检索）
+
+大礼包请安装：https://github.com/K-Dense-AI/scientific-agent-skills
+```
+
+---
+
 ## 📦 一、独立 Skill（手动单独安装）
 
 ### 🎓 学术科研与论文写作
@@ -28,11 +53,13 @@
 |---|-------|--------|------|
 | 6 | **software-copyright-materials** | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 软件著作权自动生成。一键抽取前后 30 页代码，生成软著申请说明书和操作手册 |
 
-### 💾 对话增强与记忆
+### 💾 对话增强与记忆 ⚠️ 需安装客户端
 
 | # | Skill | GitHub | 说明 |
 |---|-------|--------|------|
 | 7 | **chatmem** | [Rimagination/ChatMem](https://github.com/Rimagination/ChatMem) | 智能体长短期记忆。结构化后台记忆库，解决超长项目和连贯工作中的上下文断层问题 |
+
+> ⚠️ **额外依赖**：需要安装 [ChatMem 桌面客户端](https://github.com/Rimagination/ChatMem/releases)，Skill 通过 MCP 协议与客户端通信。
 
 ### 🌍 地理与遥感
 
@@ -40,11 +67,15 @@
 |---|-------|--------|------|
 | 8 | **geemu-skill** | [sadassimov/geemu-skill](https://github.com/sadassimov/geemu-skill) | GEE / geemap 工作流。Google Earth Engine 遥感脚本、影像处理、数据导出 |
 
-### 🔍 本地知识库检索
+### 🔍 本地知识库检索 ⚠️ 需安装网关程序
 
 | # | Skill | GitHub | 说明 |
 |---|-------|--------|------|
 | 9 | **onefind** | [iawnfoanaowt/OneFind](https://github.com/iawnfoanaowt/OneFind) | 本地知识库优先检索。支持 Obsidian / Zotero / EndNote / Notion / Mendeley / Citavi 多源统一检索 |
+
+> ⚠️ **额外依赖**：需要安装 [OneFind 网关程序](https://github.com/iawnfoanaowt/OneFind/releases)，Skill 通过命令行与网关通信。推荐同时安装：
+> - **[LibreOffice](https://www.libreoffice.org/)** — 用于解析 Office 文档
+> - **[Zotero](https://www.zotero.org/)** — 用于文献库检索（可选）
 
 ---
 
@@ -180,29 +211,7 @@
 
 ---
 
-## 🚀 三、快速安装指令
-
-把以下内容发给你的 AI Agent 即可一键安装所有独立 Skill：
-
-```
-请帮我安装以下 GitHub 上的 AI Agent Skill：
-
-1. 科研写作助手：https://github.com/Norman-bury/research-writing-skill
-2. Nature级表达与绘图：https://github.com/Yuan1z0825/nature-skills
-3. 学术全流程管理：https://github.com/Imbad0202/academic-research-skills
-4. 科研PDF深度解析：https://github.com/Rimagination/scansci-pdf
-5. 中文去AI痕迹：https://github.com/op7418/Humanizer-zh
-6. 软件著作权自动生成：https://github.com/Fokkyp/SoftwareCopyright-Skill
-7. 智能体长短期记忆：https://github.com/Rimagination/ChatMem
-8. GEE/geemap 工作流：https://github.com/sadassimov/geemu-skill
-9. 本地知识库检索：https://github.com/iawnfoanaowt/OneFind
-
-大礼包请安装：https://github.com/K-Dense-AI/scientific-agent-skills
-```
-
----
-
-## 📋 四、环境推荐
+## 📋 三、环境推荐
 
 ### Anaconda（推荐安装）
 
