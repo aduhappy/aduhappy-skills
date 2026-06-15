@@ -32,50 +32,98 @@
 
 ## 📦 一、独立 Skill（手动单独安装）
 
+每个 Skill 附单独的安装指令，按需复制发送给 AI Agent。
+
 ### 🎓 学术科研与论文写作
 
-| # | Skill | GitHub | 说明 |
-|---|-------|--------|------|
-| 1 | **scientific-writing** | [Norman-bury/research-writing-skill](https://github.com/Norman-bury/research-writing-skill) | 科研写作助手。规范 IMRAD 流程，支持解析 LaTeX 模板，拒绝 AI 盲目扩写和乱编参考文献 |
-| 2 | **nature-skills** (scientific-visualization, scientific-schematics) | [Yuan1z0825/nature-skills](https://github.com/Yuan1z0825/nature-skills) | Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符合顶刊要求的科研图表代码 |
-| 3 | **academic-research-skills** (literature-review, citation-management, peer-review) | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | 学术全流程管理。从梳理大纲到定稿一条龙，能学习你的写作风格，有防泄密保护 |
-| 4 | **scansci-pdf** (pdf) | [Rimagination/scansci-pdf](https://github.com/Rimagination/scansci-pdf) | 科研 PDF 深度解析。精准读取复杂论文（公式、双栏排版、图表数据） |
+#### 1. scientific-writing — 科研写作助手
+
+科研写作助手。规范 IMRAD 流程，支持解析 LaTeX 模板，拒绝 AI 盲目扩写和乱编参考文献。
+
+```
+请帮我安装 skill：https://github.com/Norman-bury/research-writing-skill
+```
+
+#### 2. nature-skills — Nature 级学术表达与绘图
+
+Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符合顶刊要求的科研图表代码。包含 scientific-visualization 和 scientific-schematics。
+
+```
+请帮我安装 skill：https://github.com/Yuan1z0825/nature-skills
+```
+
+#### 3. academic-research-skills — 学术全流程管理
+
+学术全流程管理。从梳理大纲到定稿一条龙，能学习你的写作风格，有防泄密保护。包含 literature-review、citation-management、peer-review。
+
+```
+请帮我安装 skill：https://github.com/Imbad0202/academic-research-skills
+```
+
+#### 4. scansci-pdf — 科研 PDF 深度解析
+
+科研 PDF 深度解析。精准读取复杂论文（公式、双栏排版、图表数据）。包含 pdf。
+
+```
+请帮我安装 skill：https://github.com/Rimagination/scansci-pdf
+```
 
 ### ✍️ 文本润色与去 AI 痕迹
 
-| # | Skill | GitHub | 说明 |
-|---|-------|--------|------|
-| 5 | **humanizer-zh** | [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh) | 中文 AI 写作去痕。识别并消除"AI 套话"，让表达更符合真实人类中文书写习惯 |
+#### 5. humanizer-zh — 中文去 AI 痕迹
+
+中文 AI 写作去痕。识别并消除"AI 套话"，让表达更符合真实人类中文书写习惯。
+
+```
+请帮我安装 skill：https://github.com/op7418/Humanizer-zh
+```
 
 ### 🔧 开发辅助与知识产权
 
-| # | Skill | GitHub | 说明 |
-|---|-------|--------|------|
-| 6 | **software-copyright-materials** | [Fokkyp/SoftwareCopyright-Skill](https://github.com/Fokkyp/SoftwareCopyright-Skill) | 软件著作权自动生成。一键抽取前后 30 页代码，生成软著申请说明书和操作手册 |
+#### 6. software-copyright-materials — 软件著作权自动生成
+
+软件著作权自动生成。一键抽取前后 30 页代码，生成软著申请说明书和操作手册。
+
+```
+请帮我安装 skill：https://github.com/Fokkyp/SoftwareCopyright-Skill
+```
 
 ### 💾 对话增强与记忆 ⚠️ 需安装客户端
 
-| # | Skill | GitHub | 说明 |
-|---|-------|--------|------|
-| 7 | **chatmem** | [Rimagination/ChatMem](https://github.com/Rimagination/ChatMem) | 智能体长短期记忆。结构化后台记忆库，解决超长项目和连贯工作中的上下文断层问题 |
+#### 7. chatmem — 智能体长短期记忆
+
+智能体长短期记忆。结构化后台记忆库，解决超长项目和连贯工作中的上下文断层问题。
 
 > ⚠️ **额外依赖**：需要安装 [ChatMem 桌面客户端](https://github.com/Rimagination/ChatMem/releases)，Skill 通过 MCP 协议与客户端通信。
 
+```
+请帮我安装 skill：https://github.com/Rimagination/ChatMem
+注意：安装 Skill 后还需下载安装 ChatMem 桌面客户端：https://github.com/Rimagination/ChatMem/releases
+```
+
 ### 🌍 地理与遥感
 
-| # | Skill | GitHub | 说明 |
-|---|-------|--------|------|
-| 8 | **geemu-skill** | [sadassimov/geemu-skill](https://github.com/sadassimov/geemu-skill) | GEE / geemap 工作流。Google Earth Engine 遥感脚本、影像处理、数据导出 |
+#### 8. geemu-skill — GEE / geemap 工作流
+
+GEE / geemap 工作流。Google Earth Engine 遥感脚本、影像处理、数据导出。
+
+```
+请帮我安装 skill：https://github.com/sadassimov/geemu-skill
+```
 
 ### 🔍 本地知识库检索 ⚠️ 需安装网关程序
 
-| # | Skill | GitHub | 说明 |
-|---|-------|--------|------|
-| 9 | **onefind** | [iawnfoanaowt/OneFind](https://github.com/iawnfoanaowt/OneFind) | 本地知识库优先检索。支持 Obsidian / Zotero / EndNote / Notion / Mendeley / Citavi 多源统一检索 |
+#### 9. onefind — 本地知识库优先检索
 
-> ⚠️ **额外依赖**：需要安装 [OneFind 网关程序](https://github.com/iawnfoanaowt/OneFind/releases)，Skill 通过命令行与网关通信。推荐同时安装：
-> - **[LibreOffice](https://www.libreoffice.org/)** — 用于解析 Office 文档
-> - **[Zotero](https://www.zotero.org/)** — 用于文献库检索（可选）
+本地知识库优先检索。支持 Obsidian / Zotero / EndNote / Notion / Mendeley / Citavi 多源统一检索。
+
+> ⚠️ **额外依赖**：需要安装 [OneFind 网关程序](https://github.com/iawnfoanaowt/OneFind/releases)，Skill 通过命令行与网关通信。推荐同时安装 [LibreOffice](https://www.libreoffice.org/)（解析 Office 文档）和 [Zotero](https://www.zotero.org/)（文献检索）。
+
+```
+请帮我安装 skill：https://github.com/iawnfoanaowt/OneFind
+注意：安装 Skill 后还需下载安装 OneFind 网关程序：https://github.com/iawnfoanaowt/OneFind/releases
+依赖：LibreOffice（解析 Office 文档）、Zotero（文献检索，可选）
+```
 
 ---
 
