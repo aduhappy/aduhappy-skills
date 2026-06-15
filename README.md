@@ -27,6 +27,28 @@
 > - **ChatMem**（桌面客户端）→ 见 #8
 > - **OneFind**（网关程序）→ 见 #9
 
+## 🔄 检查本地已安装 Skill 是否有更新
+
+把以下内容发给 AI Agent，它会逐个对比本地 SKILL.md 与远程仓库版本，列出有更新的 Skill：
+
+```
+请帮我检查以下已安装的 Skill 是否有远程更新（对比本地 SKILL.md 和 GitHub 最新版本）：
+
+独立 Skill：
+1. https://github.com/Norman-bury/research-writing-skill
+2. https://github.com/Yuan1z0825/nature-skills
+3. https://github.com/Imbad0202/academic-research-skills
+4. https://github.com/Rimagination/scansci-pdf
+5. https://github.com/op7418/Humanizer-zh
+6. https://github.com/Fokkyp/SoftwareCopyright-Skill
+7. https://github.com/sadassimov/geemu-skill
+
+大礼包：
+8. https://github.com/K-Dense-AI/scientific-agent-skills
+
+如果发现某个 Skill 有更新，显示具体差异（commit hash 或关键变更），并询问我是否要更新。
+```
+
 ---
 
 ## 📦 一、独立 Skill
