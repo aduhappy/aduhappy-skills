@@ -202,51 +202,37 @@
 
 ---
 
-## 📋 四、环境备忘
+## 📋 四、环境推荐
 
-### Anaconda（不加入系统 PATH，始终用完整路径）
+### Anaconda（推荐安装）
 
-| 项目 | 路径 |
+> **不加入系统 PATH**，始终通过完整路径调用，避免与系统 Python 冲突。
+
+| 项目 | 路径（示例） |
 |------|------|
-| conda | `D:\software\tools\Anaconda\condabin\conda.bat` |
-| python | `D:\software\tools\Anaconda\python.exe` |
-| pip | `D:\software\tools\Anaconda\Scripts\pip.exe` |
+| conda | `D:\Anaconda\condabin\conda.bat` |
+| python | `D:\Anaconda\python.exe` |
+| pip | `D:\Anaconda\Scripts\pip.exe` |
 
-### Conda 环境
+安装后建议按需创建独立环境，例如：
 
-| 环境名 | Python | 用途 |
-|--------|---------|------|
-| base | 3.13.9 | 默认环境 |
-| cgo-traffic | 3.11.14 | 交通场景分析（sklearn） |
-| dam_yolo | 3.10.19 | YOLO 目标检测（torch+ultralytics，CPU版） |
-| dlcm | 3.11.15 | 深度学习（缺框架，仅 numpy/pandas） |
-| gee | 3.10.19 | Google Earth Engine（ee+geemap） |
-| swat-dcdam | 3.11.15 | SWAT 水文模型 |
-| swat-r | — | R 4.6.0 纯 R 环境 |
+```
+conda create -n gee python=3.10    # Google Earth Engine
+conda create -n yolov python=3.10  # YOLO 目标检测
+conda create -n swat python=3.11  # SWAT 水文模型
+```
 
-### 系统关键软件
+### 其他推荐软件
 
-| 软件 | 版本 |
+| 软件 | 用途 |
 |------|------|
-| ZCode | 3.0.1 |
-| MATLAB | R2025b |
-| ArcGIS Pro | 中文版 |
-| QGIS | 4.0.0 |
-| ENVI | 5.6 |
-| Global Mapper | 26.2 中文版 |
-| eCognition | 9.0 |
-| Agisoft Metashape | Professional |
-| CloudCompare | 2.14 |
-| iTwin Capture (ContextCapture) | Modeler |
-| AutoCAD | 2026.0.1 |
-| Zotero | — |
-| LibreOffice | 26.2.2.2 |
-| MinerU | — |
-| Adobe Acrobat | DC 64-bit |
-| ChatMem | — |
-| OneFind | 1.7.2026.13602 |
-| NVIDIA Driver | 595.97 |
-| CUDA (OneFind 内置) | 13.2 |
+| [ZCode](https://zcode.ai) | AI 编程助手（本仓库 Skill 的运行平台） |
+| [ChatMem](https://github.com/Rimagination/ChatMem) | 智能体长短期记忆 |
+| [OneFind](https://github.com/iawnfoanaowt/OneFind) | 本地多源知识库统一检索 |
+| [Zotero](https://www.zotero.org/) | 文献管理 |
+| [LibreOffice](https://www.libreoffice.org/) | 开源办公套件（OneFind 需要） |
+| [MinerU](https://github.com/opendatalab/MinerU) | PDF 学术公式/图表提取 |
+| [Node.js](https://nodejs.org/) | ZCode 运行依赖 |
 
 ---
 
