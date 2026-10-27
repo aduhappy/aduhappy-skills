@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 快速安装指令（12 个可自动安装）
+## 🚀 快速安装指令（15 个可自动安装）
 
 把以下内容发给你的 AI Agent 即可一键安装这些 Skill：
 
@@ -16,20 +16,23 @@
 2. Nature级表达与绘图：https://github.com/Yuan1z0825/nature-skills
 3. 学术全流程管理：https://github.com/Imbad0202/academic-research-skills
 4. 科研PDF深度解析：https://github.com/Rimagination/scansci-pdf
-5. 研究问题打磨：https://github.com/Rimagination/good-question
-6. 科研叙事写作：https://github.com/Rimagination/good-story
-7. 学术图表生成（仅限Codex）：https://github.com/keros68/abstract-fig
-8. 学术论文MCP检索：https://github.com/Rimagination/instsci
-9. 中文去AI痕迹：https://github.com/op7418/Humanizer-zh
-10. 软件著作权自动生成：https://github.com/Fokkyp/SoftwareCopyright-Skill
-11. 多智能体协作文档：https://github.com/aduhappy/multi-agent-project-skill
-12. GEE/geemap 工作流：https://github.com/sadassimov/geemu-skill
+5. MinerU高精文档提取：https://github.com/Rimagination/mineru-go
+6. 研究问题打磨：https://github.com/Rimagination/good-question
+7. 科研叙事写作：https://github.com/Rimagination/good-story
+8. 学术图表生成（仅限Codex）：https://github.com/keros68/abstract-fig
+9. 科研数据分析与绘图：https://github.com/Rimagination/easyplot
+10. 学术论文MCP检索：https://github.com/Rimagination/instsci
+11. 中文去AI痕迹：https://github.com/op7418/Humanizer-zh
+12. 中英文学术去AI味：https://github.com/Rimagination/easyunslop
+13. 软件著作权自动生成：https://github.com/Fokkyp/SoftwareCopyright-Skill
+14. 多智能体协作文档：https://github.com/aduhappy/multi-agent-project-skill
+15. GEE/geemap 工作流：https://github.com/sadassimov/geemu-skill
 
 大礼包请安装：https://github.com/K-Dense-AI/scientific-agent-skills
 ```
 
-> ⚠️ 以下三个 Skill 依赖较重或需要配套客户端，**建议独立安装**，详见下方说明：
-> - **paper-fetch-skill**（Python 3.11+ + 浏览器后端）→ 见 #9
+> ⚠️ 以下两个 Skill 依赖较重或需要配套客户端，**建议独立安装**，详见下方说明：
+> - **paper-fetch-skill**（Python 3.11+ + 浏览器后端）→ 见 #10
 > - **OneFind**（网关程序）→ 见 #20
 
 ## 📽️ PPT 专题（6 个 Skill 单独安装）
@@ -68,26 +71,29 @@ PPT 相关 Skill 单独列出，按需选用。复制以下内容发给 AI Agent
 2. https://github.com/Yuan1z0825/nature-skills
 3. https://github.com/Imbad0202/academic-research-skills
 4. https://github.com/Rimagination/scansci-pdf
-5. https://github.com/Rimagination/good-question
-6. https://github.com/Rimagination/good-story
-7. https://github.com/keros68/abstract-fig
-8. https://github.com/Rimagination/instsci
-9. https://github.com/Dictation354/paper-fetch-skill
-10. https://github.com/op7418/Humanizer-zh
-11. https://github.com/Fokkyp/SoftwareCopyright-Skill
-12. https://github.com/aduhappy/multi-agent-project-skill
-13. https://github.com/sadassimov/geemu-skill
+5. https://github.com/Rimagination/mineru-go
+6. https://github.com/Rimagination/good-question
+7. https://github.com/Rimagination/good-story
+8. https://github.com/keros68/abstract-fig
+9. https://github.com/Rimagination/easyplot
+10. https://github.com/Rimagination/instsci
+11. https://github.com/Dictation354/paper-fetch-skill
+12. https://github.com/op7418/Humanizer-zh
+13. https://github.com/Rimagination/easyunslop
+14. https://github.com/Fokkyp/SoftwareCopyright-Skill
+15. https://github.com/aduhappy/multi-agent-project-skill
+16. https://github.com/sadassimov/geemu-skill
 
 PPT 专题：
-14. https://github.com/op7418/guizang-ppt-skill
-15. https://github.com/GordenSun/GordenPPTSkill
-16. https://github.com/lewislulu/html-ppt-skill
-17. https://github.com/hugohe3/ppt-master
-18. https://github.com/zarazhangrui/frontend-slides
-19. https://github.com/zarazhangrui/beautiful-html-templates
+17. https://github.com/op7418/guizang-ppt-skill
+18. https://github.com/GordenSun/GordenPPTSkill
+19. https://github.com/lewislulu/html-ppt-skill
+20. https://github.com/hugohe3/ppt-master
+21. https://github.com/zarazhangrui/frontend-slides
+22. https://github.com/zarazhangrui/beautiful-html-templates
 
 大礼包：
-20. https://github.com/K-Dense-AI/scientific-agent-skills
+23. https://github.com/K-Dense-AI/scientific-agent-skills
 
 如果发现某个 Skill 有更新，显示具体差异（commit hash 或关键变更），并询问我是否要更新。
 ```
@@ -148,7 +154,20 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 注意：建议用 pip install scansci-pdf 安装以获取编译版核心（性能更好）
 ```
 
-#### 5. good-question — 研究问题打磨
+#### 5. mineru-go — MinerU 文档多模态高精提取
+
+基于 MinerU 官方 API（轻量免费 API + 高精 Precision Extract API）进行学术 PDF/研报/复杂文档解析提取。自动双路由调度：小文件/轻量任务走免费免登录轻量 API，高精/超长任务走 Precision API。精准抽取双栏排版、复杂数学公式（LaTeX）、表格、高分辨率图表资产，并重命名生成规范结构化 Markdown 与高精度 JSON。
+
+> **⚠️ 注意**
+> - 核心依赖 Python 3.10+，脚本调用 MinerU 官方云端解析（无需本地高显存部署）
+> - **轻量 Agent API**：≤10MB 常见文档免 Token、免登录直接可用
+> - **高精 Precision API**：需在 [mineru.net](https://mineru.net/apiManage/docs) 申请 API Token，运行 `python ./scripts/mineru_api_convert.py --save-token` 自动保存到用户环境变量 `MINERU_API_TOKEN`（安全隐蔽保存，不进命令历史）
+
+```
+请帮我安装 skill：https://github.com/Rimagination/mineru-go
+```
+
+#### 6. good-question — 研究问题打磨
 
 研究问题打磨。把一个模糊想法打磨成有杀伤力的研究问题，自动生成 Good Question Card（含关键假设、竞争假说、可行性实验、审稿人预判）。支持多种模式（mentor / reviewer / collaborator / grant）。
 
@@ -160,7 +179,7 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 请帮我安装 skill：https://github.com/Rimagination/good-question
 ```
 
-#### 6. good-story — 科研叙事写作
+#### 7. good-story — 科研叙事写作
 
 科研叙事写作助手。将零散的研究结果转化为有说服力的论文叙事，自动识别最强主线、检测过度声明（如相关说成因果）、校准子领域证据标准。支持生成 cover letter 和审稿人预判回复。
 
@@ -173,7 +192,7 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 请帮我安装 skill：https://github.com/Rimagination/good-story
 ```
 
-#### 7. abstract-fig — 学术图表 draw.io 生成 ⚠️ 仅限 Codex
+#### 8. abstract-fig — 学术图表 draw.io 生成 ⚠️ 仅限 Codex
 
 基于 Codex 的 image2 图像生成能力，将论文内容转化为可编辑的 draw.io 学术图表（图形摘要、概念模型、机制示意图、工作流图等）。输出 `.drawio` 文件，可在 [app.diagrams.net](https://app.diagrams.net/) 中继续编辑。
 
@@ -186,7 +205,20 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 注意：此 Skill 仅限 Codex 使用，需要 Codex 内置的 image2 图像生成能力
 ```
 
-#### 8. instsci — 学术论文 MCP 检索
+#### 9. easyplot — 科研数据分析与顶刊级图表绘制
+
+专为科研人员打造的一站式数据分析与顶刊绘图统一入口。涵盖数据探索、统计推断、模型评估到最终多面板图表（Nature/Science 级 Scientific Plates）组合排版。默认 R (ggplot2)，兼容 Python (matplotlib)；内置 `publication_pastel` 柔和顶刊风、中国传统色/东方色板、ggsci 顶刊配色及色盲友好调色板；内置中国标准审图号地图底图规范（含南海诸岛插图）与多子图精准对齐。
+
+> **⚠️ 注意**
+> - 默认推荐 R 语言环境（需已安装 `ggplot2` 等基础包）；亦可指定 Python 模式（需 `matplotlib`）
+> - 地图功能严格遵守测绘标准，提供规范国界线与九段线处理脚本
+> - 严禁伪造数据点与虚构误差线，绘制结果支持直接输出 PDF/TIFF 等出版格式
+
+```
+请帮我安装 skill：https://github.com/Rimagination/easyplot
+```
+
+#### 10. instsci — 学术论文 MCP 检索
 
 学术论文检索工具（MCP + CLI）。优先 Open Access（Unpaywall/arXiv/Semantic Scholar），付费论文自动弹出浏览器窗口走机构权限（Shibboleth/CARSI/WebVPN）。支持批量下载和多家出版社工作流。
 
@@ -200,7 +232,7 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 注意：需要 git clone 后 pip install -e . 安装 Python 包，AI 使用需启动 MCP 服务器（instsci-mcp）
 ```
 
-#### 9. paper-fetch-skill — 论文全文获取（CLI + MCP + Skill）⚠️ 建议独立安装
+#### 11. paper-fetch-skill — 论文全文获取（CLI + MCP + Skill）⚠️ 建议独立安装
 
 论文全文获取工具（CLI + MCP + Skill 三合一）。输入 DOI/URL/标题，返回结构化元数据 + 干净的 Markdown 全文 + 本地缓存的图片资源。支持 18 家出版社（arXiv/Elsevier/Springer/Wiley/Science/PNAS/IEEE/ACS/IOP/AIP 等），部分出版社通过 CDP 浏览器后端获取。**不绕过付费墙**，仅在你已有访问权限时工作。
 
@@ -223,7 +255,7 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 
 ### ✍️ 文本润色与去 AI 痕迹
 
-#### 10. humanizer-zh — 中文去 AI 痕迹
+#### 12. humanizer-zh — 中文去 AI 痕迹
 
 中文 AI 写作去痕。识别并消除"AI 套话"，让表达更符合真实人类中文书写习惯。识别 4 大类 24 种 AI 写作模式。
 
@@ -234,9 +266,22 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 请帮我安装 skill：https://github.com/op7418/Humanizer-zh
 ```
 
+#### 13. easyunslop — 中英文学术去 AI 味与文风打磨
+
+学术文本深度去 AI 味、机器腔与公文套话。专为论文、开题报告、申请书、技术报告打造，在清理套话的同时严守作者原意、学术严谨性、专业语域与成果承诺（严防相关改因果、夸大研究范围等致命错误）。提供只诊断、轻度校改、局部润色与全文润色四种模式，内置中英文套话模式库与高频黑话诊断。
+
+> **⚠️ 注意**
+> - 纯 Prompt / Workflow 工作流，无需额外安装外部依赖环境
+> - 内置 Python 词汇诊断脚本（`scripts/check_lexical_unslop.py`）辅助自检
+> - 触发方式：直接提供待改文本，或输入 `$easyunslop` 并指定修改要求
+
+```
+请帮我安装 skill：https://github.com/Rimagination/easyunslop
+```
+
 ### 🔧 开发辅助与知识产权
 
-#### 11. software-copyright-materials — 软件著作权自动生成
+#### 14. software-copyright-materials — 软件著作权自动生成
 
 软件著作权自动生成。一键抽取前后 30 页代码，生成软著申请说明书和操作手册。**完全免费**。
 
@@ -251,7 +296,7 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 
 ### 📽️ PPT 制作与演示
 
-#### 12. guizang-ppt-skill — 设计感网页 PPT
+#### 15. guizang-ppt-skill — 设计感网页 PPT
 
 设计感网页 PPT 生成。提供 Editorial 杂志风（10 种版式）和瑞士国际主义（22 种版式）两种视觉系统，单文件 HTML 输出。支持多平台社交封面、可选图像生成（Codex 专属功能）。
 
@@ -263,7 +308,7 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 请帮我安装 skill：https://github.com/op7418/guizang-ppt-skill
 ```
 
-#### 13. GordenPPTSkill — 中文 PPT 模板填充
+#### 16. GordenPPTSkill — 中文 PPT 模板填充
 
 中文 PPT 模板填充。内置 17 套精调中文商务 PPTX 模板，非破坏性文本编辑（布局不变）。支持 DeepSeek、Claude、GPT 等多种 LLM。
 
@@ -277,7 +322,7 @@ Nature 级学术表达与绘图。润色为顶刊风格语言，辅助编写符�
 注意：需要先安装 python-pptx（pip install python-pptx）
 ```
 
-#### 14. html-ppt-skill — HTML 演示文稿工厂
+#### 17. html-ppt-skill — HTML 演示文稿工厂
 
 HTML 演示文稿工厂。36 种主题、31 种页面版式、47 种动画效果，纯静态 HTML/CSS/JS（无构建步骤）。独创演讲者模式（Presenter Mode）：S 键打开双屏，含逐字稿和计时器。
 
@@ -285,7 +330,7 @@ HTML 演示文稿工厂。36 种主题、31 种页面版式、47 种动画效果
 请帮我安装 skill：https://github.com/lewislulu/html-ppt-skill
 ```
 
-#### 15. ppt-master — 可编辑 PPTX 生成
+#### 18. ppt-master — 可编辑 PPTX 生成
 
 可编辑 PPTX 生成。将 PDF/DOCX/Markdown 等源文档转为原生可编辑的 PPTX（DrawingML 格式，可在 PowerPoint 中直接修改）。支持动画、幻灯片备注、模板填充模式。
 
@@ -299,7 +344,7 @@ HTML 演示文稿工厂。36 种主题、31 种页面版式、47 种动画效果
 注意：需要 Python 3.10+ 并安装依赖（pip install -r requirements.txt）
 ```
 
-#### 16. frontend-slides — 前端幻灯片预览
+#### 19. frontend-slides — 前端幻灯片预览
 
 前端幻灯片预览。先看视觉预览再选择风格，降低设计决策门槛。支持从 PPTX 导入、12 种内置预设 + 34 种 Bold 模板包、Vercel 一键部署。
 
@@ -312,7 +357,7 @@ HTML 演示文稿工厂。36 种主题、31 种页面版式、47 种动画效果
 请帮我安装 skill：https://github.com/zarazhangrui/frontend-slides
 ```
 
-#### 17. beautiful-html-templates — HTML 模板库
+#### 20. beautiful-html-templates — HTML 模板库
 
 高质量 HTML 幻灯片模板库。34 套成品 HTML 模板，附 screenshots 预览和 index.json 目录，Agent 可自动匹配用户需求并克隆改编。常与 frontend-slides 配合使用。
 
@@ -326,7 +371,7 @@ HTML 演示文稿工厂。36 种主题、31 种页面版式、47 种动画效果
 
 ### 🤖 多智能体协作与项目管理
 
-#### 18. multi-agent-project-skill — 跨 Agent 协作文档脚手架
+#### 21. multi-agent-project-skill — 跨 Agent 协作文档脚手架
 
 跨 Agent、跨工具的可恢复项目文档脚手架。基于 AGENTS.md 开放标准（agents.md），生成纯 Markdown 协作结构：AGENTS.md + 任务卡片 + 数据来源溯源 + 决策记录（ADR）+ 进度日志 + STATUS.md 状态移交。任何 Agent（Claude/Cursor/Gemini/ZCode/Codex）读取同一入口即可接力工作。
 
@@ -339,28 +384,9 @@ HTML 演示文稿工厂。36 种主题、31 种页面版式、47 种动画效果
 请帮我安装 skill：https://github.com/aduhappy/multi-agent-project-skill
 ```
 
-### 💾 对话增强与记忆 ⚠️ 建议手动安装
-
-#### 19. chatmem — 智能体长短期记忆
-
-智能体长短期记忆。结构化后台记忆库，解决超长项目和连贯工作中的上下文断层问题。
-
-> **⚠️ 手动安装说明（不建议自动安装）**
-> - **Tauri 桌面应用**，需下载安装包：[GitHub Releases](https://github.com/Rimagination/ChatMem/releases)
-> - 安装后在桌面应用中：**Settings → Agent Integrations → "一键安装到全部"**
-> - 会自动检测 Claude Code / Codex / Gemini CLI / OpenCode 配置，写入 MCP 服务器条目并备份原配置
-> - 安装后需**完全退出并重新打开**目标 Agent
-
-```
-⚠️ 此 Skill 建议手动安装，不要自动安装：
-1. 下载 ChatMem 桌面客户端：https://github.com/Rimagination/ChatMem/releases
-2. 安装后在 Settings → Agent Integrations 中点击"一键安装到全部"
-3. 完全退出并重新打开你的 AI Agent
-```
-
 ### 🌍 地理与遥感
 
-#### 20. geemu-skill — GEE / geemap 工作流
+#### 22. geemu-skill — GEE / geemap 工作流
 
 GEE / geemap 工作流。Google Earth Engine 遥感脚本、影像处理、数据导出。
 
@@ -375,7 +401,7 @@ GEE / geemap 工作流。Google Earth Engine 遥感脚本、影像处理、数�
 
 ### 🔍 本地知识库检索 ⚠️ 建议手动安装
 
-#### 21. onefind — 本地知识库优先检索
+#### 23. onefind — 本地知识库优先检索
 
 本地知识库优先检索。支持 Obsidian / Zotero / EndNote / Notion / Mendeley / Citavi 多源统一检索。
 
@@ -552,7 +578,7 @@ conda create -n swat python=3.11  # SWAT 水文模型
 
 | 软件 | 用途 |
 |------|------|
-| [MinerU](https://github.com/opendatalab/MinerU) | 开源 PDF 解析工具，精准提取学术论文中的公式、表格、图片，转为 Markdown/LaTeX，适合配合科研 Skill 处理复杂版面论文 |
+| [MinerU](https://github.com/opendatalab/MinerU) | 开源 PDF 解析工具，精准提取学术论文中的公式、表格、图片，转为 Markdown/LaTeX，配合 [mineru-go](https://github.com/Rimagination/mineru-go) 技能可直接调用云端 API 极速解析 |
 
 ---
 
